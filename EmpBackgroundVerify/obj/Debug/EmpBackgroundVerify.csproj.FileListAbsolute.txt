@@ -1,0 +1,10 @@
+D:\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.csprojResolveAssemblyReference.cache
+D:\Employee background verification\EmpBackgroundVerify\bin\EmpBackgroundVerify.dll
+D:\Employee background verification\EmpBackgroundVerify\bin\EmpBackgroundVerify.pdb
+D:\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.dll
+D:\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.pdb
+C:\Users\91947\Downloads\Employee background verification-20230203T105120Z-001\Employee background verification\EmpBackgroundVerify\bin\EmpBackgroundVerify.dll
+C:\Users\91947\Downloads\Employee background verification-20230203T105120Z-001\Employee background verification\EmpBackgroundVerify\bin\EmpBackgroundVerify.pdb
+C:\Users\91947\Downloads\Employee background verification-20230203T105120Z-001\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.csprojResolveAssemblyReference.cache
+C:\Users\91947\Downloads\Employee background verification-20230203T105120Z-001\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.dll
+C:\Users\91947\Downloads\Employee background verification-20230203T105120Z-001\Employee background verification\EmpBackgroundVerify\obj\Debug\EmpBackgroundVerify.pdb
