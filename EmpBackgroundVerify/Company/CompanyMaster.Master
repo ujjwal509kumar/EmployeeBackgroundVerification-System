@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CompanyMaster.master.cs" Inherits="EmpBackgroundVerify.Company.CompanyMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Company Portal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/coin-slider.css" />
+<script type="text/javascript" src="../js/cufon-yui.js"></script>
+<script type="text/javascript" src="../js/cufon-aller.js"></script>
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/coin-slider.min.js"></script>
+    <style type="text/css">
+        .style1
+        {
+            color: yellow;
+        }
+        .style2
+        {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><span class="style1"><a href="/Visitor/HomePage.aspx"><span class="style2">Employee</span></a></span><a href="/Visitor/HomePage.aspx"><span 
+                style=" font-size:xx-large; " class="style1"><em>BG</em></span><span class="style2">Verfication</span> <small>Trust, that's what we build</small></a></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+            <li class="active"><a href="CompanyHome.aspx"><span>Home</span></a></li>
+             <li><a href="ChangePassword.aspx"><span>Change Password</span></a></li>
+          <li><a href="ManageDepartments.aspx"><span>Departments</span></a></li>
+          <li><a href="ManageDesigantions.aspx"><span>Designation</span></a></li>
+          <li><a href="ManageEmployee.aspx"><span>Employees</span></a></li>
+          <%--<li><a href="ProblemSpecification.aspx"><span>Staffing</span></a></li>--%>
+          <li><a href="EmployeeBGverify.aspx"><span>BG-Search</span></a></li>
+<%--          <li><a href="index.html"><span>Confirmation</span></a></li>--%>
+          <li><a href="../Visitor/LoginPage.aspx"><span>LogOut</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div id="coin-slider"> <a href="#"><img src="../images/slide1.jpg" width="960" height="320" alt="" /> </a> <a href="#"><img src="../images/slide2.jpg" width="960" height="320" alt="" /> </a> <a href="#"><img src="../images/slide3.jpg" width="960" height="320" alt="" /> </a> </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+       <table style="width: 100%;">
+              <tr>
+                  <td bgcolor="#F0F0F0"  valign="top">
+                       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                      </asp:ContentPlaceHolder>
+                  </td>
+                  
+              </tr>
+           
+          </table>
+       <%--  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>--%>
+      </div>
+      <div class="sidebar" style="background-color:#F0F0F0; vertical-align:top;">
+        <div class="clr"></div>
+        <div class="gadget">
+          <h2 class="star"><span>Company</span> Links</h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+           <li><a href="CompanyHome.aspx">Home</a></li>
+           <%-- <li><a href="">Account</a></li>--%>
+            <li><a href="ChangePassword.aspx"><span>Change Password</span></a></li>
+            <li><a href="ManageDepartments.aspx">Departments</a></li>
+            <li><a href="ManageDesigantions.aspx">Designations</a></li>
+            <li><a href="ManageEmployee.aspx">Employees</a></li>
+            <li><a href="ViewEmployeesDetails.aspx">Update Employee profile</a></li>
+           <%-- <li><a href="ProblemSpecification.aspx">Staffing</a></li>--%>
+            <li><a href="EmployeeBGverify.aspx">BG-Search</a></li>
+          <%--  <li><a href="RequestConfirmation.aspx" class="style1">Reply to Confirmation Request</a></li>
+            <li><a href="ConfirmRequest_Inbox.aspx" class="style1">Confirmation Request-Inbox</a></li>--%>
+            <%--<li><a href="ConfirmRequest_Outbox.aspx" class="style1">Confirmation Request-Outbox</a></li>--%>
+            <li><a href="VisitorDetails.aspx">Visitor Details</a></li>
+            <li><a href="PostQueries.aspx">Queries</a></li>
+            <li><a href="../Visitor/LoginPage.aspx">Log Out</a></li>
+          </ul>
+        </div>
+       
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright&nbsp;&nbsp;&nbsp;2023 <a href="/Company/CompanyHome.aspx">EmployeeBGverification</a>.</p>
+      <p class="lf">Designed by VARUN and UJJWAL</p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
